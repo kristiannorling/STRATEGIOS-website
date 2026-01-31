@@ -1,0 +1,67 @@
+---
+title: "Strategitavlan"
+subtitle: "Strategy Framework · Strategiramverk"
+---
+
+## What is Strategitavlan? · Vad är Strategitavlan?
+
+::: {.grid}
+::: {.g-col-6}
+Strategitavlan is a practical framework with 8 elements for structuring strategy work. It has been developed through action design research together with Swedish public sector strategists.
+:::
+
+::: {.g-col-6}
+Strategitavlan är ett praktiskt ramverk med 8 element för att strukturera strategiarbete. Det har utvecklats genom action design research tillsammans med svenska offentliga strateger.
+:::
+:::
+
+## The 8 Elements · De 8 elementen
+
+| Element | English | Svenska |
+|---------|---------|---------|
+| **Vision** | Where do we want to go? | Vart vill vi? |
+| **Challenge · Utmaning** | What's stopping us? | Vad hindrar oss? |
+| **Assumptions · Antaganden** | What do we believe? | Vad tror vi? |
+| **Intent · Avsikt** | What should be achieved? | Vad ska uppnås? |
+| **Value · Värde** | For whom? What value? | För vem? Vilket värde? |
+| **Goal images · Målbilder** | How do we know? | Hur vet vi? |
+| **Capabilities · Förmågor** | What's needed? | Vad behövs? |
+| **Friction** | What can go wrong? | Vad kan gå fel? |
+
+## Usage · Användning
+
+::: {.grid}
+::: {.g-col-6}
+The framework can be used for:
+
+- Strategic dialogues in leadership teams
+- Workshop format for strategy development
+- Structuring strategy documents
+- Analyzing existing strategies
+:::
+
+::: {.g-col-6}
+Ramverket kan användas för:
+
+- Strategiska dialoger i ledningsgrupper
+- Workshop-format för strategiutveckling
+- Strukturering av strategidokument
+- Analys av befintliga strategier
+:::
+:::
+
+## Download · Ladda ner
+
+*Templates and workshop materials coming soon · Mallar och workshopmaterial kommer snart*
+
+## Research · Forskning
+
+::: {.grid}
+::: {.g-col-6}
+Strategitavlan is developed within the [STRATEGIOS program](../about.qmd) at the University of Gothenburg through action design research.
+:::
+
+::: {.g-col-6}
+Strategitavlan utvecklas inom [STRATEGIOS-programmet](../about.qmd) vid Göteborgs universitet genom action design research.
+:::
+:::

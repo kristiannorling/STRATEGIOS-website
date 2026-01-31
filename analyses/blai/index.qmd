@@ -1,0 +1,69 @@
+---
+title: "BLAI – Language Complexity · Språkkomplexitet"
+subtitle: "Bureaucratic Language Analysis Index"
+---
+
+## What is BLAI? · Vad är BLAI?
+
+::: {.grid}
+::: {.g-col-6}
+BLAI (Bureaucratic Language Analysis Index) is a framework for measuring complexity in Swedish government documents. The index combines 9 linguistic metrics into a normalized score (0–1).
+:::
+
+::: {.g-col-6}
+BLAI (Bureaucratic Language Analysis Index) är ett ramverk för att mäta komplexiteten i svenska myndighetstexter. Indexet kombinerar 9 lingvistiska metriker till ett normaliserat mått (0–1).
+:::
+:::
+
+## The 9 Metrics · De 9 metrikerna
+
+| Metric · Metrik | Weight · Vikt | Description · Beskrivning |
+|-----------------|---------------|---------------------------|
+| **LIX** | 15% | Swedish readability · Svenskt läsbarhetsindex |
+| **OVIX** | 12.5% | Vocabulary variation · Ordvariation |
+| **NR** | 12.5% | Nominal ratio · Nominalkvot |
+| **NQ** | 12.5% | Nominal quotient · Nominal quotient |
+| **NOMIX** | 15% | Nominalization index · Nominaliseringsindex |
+| **PLIX** | 10% | Platitude index · Floskelindex |
+| **PAVIX** | 7.5% | Passive voice · Passiv röst |
+| **LWIX** | 7.5% | Long word index · Långa ord |
+| **AVIX** | 7.5% | Academic vocabulary · Akademiskt vokabulär |
+
+## Results · Resultat
+
+::: {.metric-grid}
+::: {.metric-box}
+[454]{.metric-value}
+[Documents analyzed · Analyserade dokument]{.metric-label}
+:::
+
+::: {.metric-box}
+[290]{.metric-value}
+[Municipalities · Kommuner]{.metric-label}
+:::
+
+::: {.metric-box}
+[0.52]{.metric-value}
+[Average BLAI · Genomsnittligt BLAI]{.metric-label}
+:::
+:::
+
+*Interactive visualization coming soon · Interaktiv visualisering kommer snart*
+
+## Method · Metod
+
+::: {.grid}
+::: {.g-col-6}
+Documents are extracted from PDF using Docling, annotated with spaCy (`sv_core_news_lg`), and analyzed using the BLAI framework.
+:::
+
+::: {.g-col-6}
+Dokumenten extraheras från PDF med Docling, annoteras med spaCy (`sv_core_news_lg`), och analyseras med BLAI-ramverket.
+:::
+:::
+
+## Related Research · Relaterad forskning
+
+This is part of the [STRATEGIOS program](../../about.qmd) at the University of Gothenburg.
+
+Detta är en del av [STRATEGIOS-programmet](../../about.qmd) vid Göteborgs universitet.
