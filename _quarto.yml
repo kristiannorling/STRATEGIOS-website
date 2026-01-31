@@ -14,8 +14,9 @@ website:
       - text: "Om"
         href: about.qmd
     right:
-      - text: Signal
+      - icon: chat-fill
         href: https://signal.me/#eu/WjWYVgrylEqIZcZCbI4p1I6Edfyz4HyR5lUkBrJOxwJdUg2ydgJLZphVYUv3PpCY
+        aria-label: Signal
       - icon: linkedin
         href: https://www.linkedin.com/in/kristiannorling/
       - icon: github
