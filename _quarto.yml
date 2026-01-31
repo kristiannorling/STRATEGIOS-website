@@ -11,7 +11,7 @@ website:
     background: dark
     foreground: light
     left:
-      - text: "Om"
+      - text: "About / Om"
         href: about.qmd
     right:
       - text: "![](assets/signal-logo.svg){height=20px}"
