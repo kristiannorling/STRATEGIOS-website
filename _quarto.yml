@@ -14,7 +14,7 @@ website:
       - text: "Om"
         href: about.qmd
     right:
-      - icon: chat-fill
+      - text: "![](assets/signal-logo.svg){height=20px}"
         href: https://signal.me/#eu/WjWYVgrylEqIZcZCbI4p1I6Edfyz4HyR5lUkBrJOxwJdUg2ydgJLZphVYUv3PpCY
         aria-label: Signal
       - icon: linkedin
