@@ -1,0 +1,21 @@
+lang: sv
+
+website:
+  navbar:
+    left:
+      - text: "Om"
+        href: about.qmd
+    right:
+      - text: "EN"
+        href: ../en/index.qmd
+      - text: "![](../assets/signal-logo.svg){height=20px}"
+        href: https://signal.me/#eu/WjWYVgrylEqIZcZCbI4p1I6Edfyz4HyR5lUkBrJOxwJdUg2ydgJLZphVYUv3PpCY
+        aria-label: Signal
+      - icon: linkedin
+        href: https://www.linkedin.com/in/kristiannorling/
+      - icon: github
+        href: https://github.com/kristiannorling
+
+  page-footer:
+    center: |
+      STRATEGIOS · Göteborgs universitet · [Kristian Norling](https://www.gu.se/om-universitetet/hitta-person/kristiannorling)

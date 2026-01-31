@@ -56,6 +56,41 @@
     "text": "Git Remote\ngit remote -v\n# origin https://github.com/kristiannorling/STRATEGIOS-website.git"
   },
   {
+    "objectID": "en/index.html",
+    "href": "en/index.html",
+    "title": "STRATEGIOS",
+    "section": "",
+    "text": "6 000+ Strategy Documents\n\n\n10M+ Job Advertisements\n\n\n470+ Organizations\n\n\n20+ Research Projects"
+  },
+  {
+    "objectID": "en/index.html#about",
+    "href": "en/index.html#about",
+    "title": "STRATEGIOS",
+    "section": "About",
+    "text": "About\nSTRATEGIOS examines how Swedish public organizations develop strategy. We analyze strategic documents from municipalities, regions, and state agencies using NLP-based text analysis combined with surveys and interviews.\nThe research program is based at the University of Gothenburg, led by Kristian Norling."
+  },
+  {
+    "objectID": "en/index.html#research-projects",
+    "href": "en/index.html#research-projects",
+    "title": "STRATEGIOS",
+    "section": "Research Projects",
+    "text": "Research Projects\n\n\n\nDNA-I\nDigital strategy structure analysis\n\n\n\n\nSCS\nStrategy competence survey\n\n\n\n\nDECOUPLING\nStrategy fragmentation\n\n\n\n\nJOBADS\nLabor market analysis\n\n\n\n\nBLAI\nLanguage complexity\n\n\n\n\nCOHESION\nText coherence"
+  },
+  {
+    "objectID": "en/index.html#key-findings",
+    "href": "en/index.html#key-findings",
+    "title": "STRATEGIOS",
+    "section": "Key Findings",
+    "text": "Key Findings\n\n\n\nStrategic Gap\nSystematic gaps between strategic ambition and organizational capability.\n\n\n\n\nInformal Learning\nStrategists rely primarily on informal learning rather than formal training.\n\n\n\n\nStrategic Variation\nSignificant variation in how organizations articulate strategic direction."
+  },
+  {
+    "objectID": "en/index.html#contact",
+    "href": "en/index.html#contact",
+    "title": "STRATEGIOS",
+    "section": "Contact",
+    "text": "Contact\n\nSignal: kristiannorling.01\nLinkedIn: /in/kristiannorling\nNewsletter: Strategibrevet"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About / Om",
@@ -105,11 +140,95 @@
     "text": "Research · Forskning\n\n\nStrategitavlan is developed within the STRATEGIOS program at the University of Gothenburg through action design research.\n\n\nStrategitavlan utvecklas inom STRATEGIOS-programmet vid Göteborgs universitet genom action design research."
   },
   {
+    "objectID": "sv/index.html",
+    "href": "sv/index.html",
+    "title": "STRATEGIOS",
+    "section": "",
+    "text": "6 000+ Strategidokument\n\n\n10M+ Jobbannonser\n\n\n470+ Organisationer\n\n\n20+ Forskningsprojekt"
+  },
+  {
+    "objectID": "sv/index.html#om",
+    "href": "sv/index.html#om",
+    "title": "STRATEGIOS",
+    "section": "Om",
+    "text": "Om\nSTRATEGIOS undersöker hur svenska offentliga organisationer utvecklar strategi. Vi analyserar strategidokument från kommuner, regioner och statliga myndigheter med NLP-baserad textanalys kombinerat med enkäter och intervjuer.\nForskningsprogrammet bedrivs vid Göteborgs universitet av Kristian Norling."
+  },
+  {
+    "objectID": "sv/index.html#forskningsprojekt",
+    "href": "sv/index.html#forskningsprojekt",
+    "title": "STRATEGIOS",
+    "section": "Forskningsprojekt",
+    "text": "Forskningsprojekt\n\n\n\nDNA-I\nStrukturanalys av digitaliseringsstrategier\n\n\n\n\nSCS\nEnkät om strategisk kompetens\n\n\n\n\nDECOUPLING\nFragmentering mellan strategier\n\n\n\n\nJOBADS\nArbetsmarknadsanalys\n\n\n\n\nBLAI\nSpråkkomplexitet\n\n\n\n\nCOHESION\nTextkoherens"
+  },
+  {
+    "objectID": "sv/index.html#huvudresultat",
+    "href": "sv/index.html#huvudresultat",
+    "title": "STRATEGIOS",
+    "section": "Huvudresultat",
+    "text": "Huvudresultat\n\n\n\nStrategiskt gap\nSystematiska gap mellan strategisk ambition och organisatorisk förmåga.\n\n\n\n\nInformellt lärande\nStrateger förlitar sig främst på informellt lärande snarare än formell utbildning.\n\n\n\n\nStrategisk variation\nStor variation i hur organisationer formulerar strategisk riktning."
+  },
+  {
+    "objectID": "sv/index.html#kontakt",
+    "href": "sv/index.html#kontakt",
+    "title": "STRATEGIOS",
+    "section": "Kontakt",
+    "text": "Kontakt\n\nSignal: kristiannorling.01\nLinkedIn: /in/kristiannorling\nNyhetsbrev: Strategibrevet"
+  },
+  {
+    "objectID": "sv/about.html",
+    "href": "sv/about.html",
+    "title": "Om STRATEGIOS",
+    "section": "",
+    "text": "STRATEGIOS är ett forskningsprogram vid Göteborgs universitet som undersöker strategisk styrning i svensk offentlig sektor. Programmet startade 2020 och omfattar idag 35+ integrerade delprojekt."
+  },
+  {
+    "objectID": "sv/about.html#forskningsprogrammet",
+    "href": "sv/about.html#forskningsprogrammet",
+    "title": "Om STRATEGIOS",
+    "section": "",
+    "text": "STRATEGIOS är ett forskningsprogram vid Göteborgs universitet som undersöker strategisk styrning i svensk offentlig sektor. Programmet startade 2020 och omfattar idag 35+ integrerade delprojekt."
+  },
+  {
+    "objectID": "sv/about.html#forskningsfrågor",
+    "href": "sv/about.html#forskningsfrågor",
+    "title": "Om STRATEGIOS",
+    "section": "Forskningsfrågor",
+    "text": "Forskningsfrågor\n\nHur formulerar svenska myndigheter sina strategier?\nVilken roll spelar strateger i offentlig sektor?\nHur hänger digitala strategier och hållbarhetsstrategier ihop?\nBlir kommunernas strategiska kommunikation mer likartad över tid?"
+  },
+  {
+    "objectID": "sv/about.html#metod",
+    "href": "sv/about.html#metod",
+    "title": "Om STRATEGIOS",
+    "section": "Metod",
+    "text": "Metod\nProgrammet kombinerar:\n\nComputational text analysis – Topic modeling, NER, semantiska embeddings\nKvantitativ analys – Lingvistiska komplexitetsmått, tidsserieanalys\nKvalitativ forskning – Djupintervjuer, fallstudier\nMixed methods – Q-metodologi, gap-analys"
+  },
+  {
+    "objectID": "sv/about.html#forskare",
+    "href": "sv/about.html#forskare",
+    "title": "Om STRATEGIOS",
+    "section": "Forskare",
+    "text": "Forskare\nKristian Norling Doktorand, Institutionen för tillämpad IT Göteborgs universitet\nPersonal på GU"
+  },
+  {
+    "objectID": "sv/about.html#publikationer",
+    "href": "sv/about.html#publikationer",
+    "title": "Om STRATEGIOS",
+    "section": "Publikationer",
+    "text": "Publikationer\nKommer snart: Lista över publikationer från forskningsprogrammet."
+  },
+  {
+    "objectID": "sv/about.html#finansiering",
+    "href": "sv/about.html#finansiering",
+    "title": "Om STRATEGIOS",
+    "section": "Finansiering",
+    "text": "Finansiering\nForskningsprogrammet finansieras av Göteborgs universitet."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "STRATEGIOS",
     "section": "",
-    "text": "EnglishSvenska\n\n\n\n\n6 000+ Strategy Documents\n\n\n10M+ Job Advertisements\n\n\n470+ Organizations\n\n\n20+ Research Projects\n\n\n\nAbout\nSTRATEGIOS examines how Swedish public organizations develop strategy. We analyze strategic documents from municipalities, regions, and state agencies using NLP-based text analysis combined with surveys and interviews.\nThe research program is based at the University of Gothenburg, led by Kristian Norling.\n\n\nResearch Projects\n\n\n\nDNA-I\nDigital strategy structure analysis\n\n\n\n\nSCS\nStrategy competence survey\n\n\n\n\nDECOUPLING\nStrategy fragmentation\n\n\n\n\nJOBADS\nLabor market analysis\n\n\n\n\nBLAI\nLanguage complexity\n\n\n\n\nCOHESION\nText coherence\n\n\n\n\n\nKey Findings\n\n\n\nStrategic Gap\nSystematic gaps between strategic ambition and organizational capability.\n\n\n\n\nInformal Learning\nStrategists rely primarily on informal learning rather than formal training.\n\n\n\n\nStrategic Variation\nSignificant variation in how organizations articulate strategic direction.\n\n\n\n\n\nContact\n\nSignal: kristiannorling.01\nLinkedIn: /in/kristiannorling\nNewsletter: Strategibrevet\n\n\n\n\n\n\n6 000+ Strategidokument\n\n\n10M+ Jobbannonser\n\n\n470+ Organisationer\n\n\n20+ Forskningsprojekt\n\n\n\nOm\nSTRATEGIOS undersöker hur svenska offentliga organisationer utvecklar strategi. Vi analyserar strategidokument från kommuner, regioner och statliga myndigheter med NLP-baserad textanalys kombinerat med enkäter och intervjuer.\nForskningsprogrammet bedrivs vid Göteborgs universitet av Kristian Norling.\n\n\nForskningsprojekt\n\n\n\nDNA-I\nStrukturanalys av digitaliseringsstrategier\n\n\n\n\nSCS\nEnkät om strategisk kompetens\n\n\n\n\nDECOUPLING\nFragmentering mellan strategier\n\n\n\n\nJOBADS\nArbetsmarknadsanalys\n\n\n\n\nBLAI\nSpråkkomplexitet\n\n\n\n\nCOHESION\nTextkoherens\n\n\n\n\n\nHuvudresultat\n\n\n\nStrategiskt gap\nSystematiska gap mellan strategisk ambition och organisatorisk förmåga.\n\n\n\n\nInformellt lärande\nStrateger förlitar sig främst på informellt lärande snarare än formell utbildning.\n\n\n\n\nStrategisk variation\nStor variation i hur organisationer formulerar strategisk riktning.\n\n\n\n\n\nKontakt\n\nSignal: kristiannorling.01\nLinkedIn: /in/kristiannorling\nNyhetsbrev: Strategibrevet"
+    "text": "STRATEGIOS\nSwedish Public Sector Strategy Research\nForskning om strategisk styrning i svensk offentlig sektor\n\n\nEnglish →\n\n\nSvenska →"
   },
   {
     "objectID": "analyses/blai/index.html",
@@ -152,5 +271,54 @@
     "title": "BLAI – Language Complexity · Språkkomplexitet",
     "section": "Related Research · Relaterad forskning",
     "text": "Related Research · Relaterad forskning\nThis is part of the STRATEGIOS program at the University of Gothenburg.\nDetta är en del av STRATEGIOS-programmet vid Göteborgs universitet."
+  },
+  {
+    "objectID": "en/about.html",
+    "href": "en/about.html",
+    "title": "About STRATEGIOS",
+    "section": "",
+    "text": "STRATEGIOS is a research program at the University of Gothenburg examining strategic management in Swedish public sector. The program started in 2020 and now comprises 35+ integrated subprojects."
+  },
+  {
+    "objectID": "en/about.html#the-research-program",
+    "href": "en/about.html#the-research-program",
+    "title": "About STRATEGIOS",
+    "section": "",
+    "text": "STRATEGIOS is a research program at the University of Gothenburg examining strategic management in Swedish public sector. The program started in 2020 and now comprises 35+ integrated subprojects."
+  },
+  {
+    "objectID": "en/about.html#research-questions",
+    "href": "en/about.html#research-questions",
+    "title": "About STRATEGIOS",
+    "section": "Research Questions",
+    "text": "Research Questions\n\nHow do Swedish public organizations formulate their strategies?\nWhat role do strategists play in public sector?\nHow are digital strategies and sustainability strategies connected?\nIs municipal strategic communication becoming more similar over time?"
+  },
+  {
+    "objectID": "en/about.html#methods",
+    "href": "en/about.html#methods",
+    "title": "About STRATEGIOS",
+    "section": "Methods",
+    "text": "Methods\nThe program combines:\n\nComputational text analysis – Topic modeling, NER, semantic embeddings\nQuantitative analysis – Linguistic complexity metrics, time series\nQualitative research – In-depth interviews, case studies\nMixed methods – Q-methodology, gap analysis"
+  },
+  {
+    "objectID": "en/about.html#researcher",
+    "href": "en/about.html#researcher",
+    "title": "About STRATEGIOS",
+    "section": "Researcher",
+    "text": "Researcher\nKristian Norling PhD Candidate, Department of Applied IT University of Gothenburg\nGU Staff Page"
+  },
+  {
+    "objectID": "en/about.html#publications",
+    "href": "en/about.html#publications",
+    "title": "About STRATEGIOS",
+    "section": "Publications",
+    "text": "Publications\nComing soon: List of publications from the research program."
+  },
+  {
+    "objectID": "en/about.html#funding",
+    "href": "en/about.html#funding",
+    "title": "About STRATEGIOS",
+    "section": "Funding",
+    "text": "Funding\nThe research program is funded by the University of Gothenburg."
   }
 ]

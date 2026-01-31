@@ -1,0 +1,39 @@
+---
+title: "About STRATEGIOS"
+---
+
+## The Research Program
+
+STRATEGIOS is a research program at the University of Gothenburg examining strategic management in Swedish public sector. The program started in 2020 and now comprises 35+ integrated subprojects.
+
+## Research Questions
+
+- How do Swedish public organizations formulate their strategies?
+- What role do strategists play in public sector?
+- How are digital strategies and sustainability strategies connected?
+- Is municipal strategic communication becoming more similar over time?
+
+## Methods
+
+The program combines:
+
+- **Computational text analysis** – Topic modeling, NER, semantic embeddings
+- **Quantitative analysis** – Linguistic complexity metrics, time series
+- **Qualitative research** – In-depth interviews, case studies
+- **Mixed methods** – Q-methodology, gap analysis
+
+## Researcher
+
+**Kristian Norling**
+PhD Candidate, Department of Applied IT
+University of Gothenburg
+
+[GU Staff Page](https://www.gu.se/en/about-the-university/find-staff/kristiannorling)
+
+## Publications
+
+*Coming soon: List of publications from the research program.*
+
+## Funding
+
+The research program is funded by the University of Gothenburg.
