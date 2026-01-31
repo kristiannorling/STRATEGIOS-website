@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STRATEGIOS - Swedish Public Sector Strategy Research</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #3498db;
+            --light: #ecf0f1;
+            --text: #333;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background: #fff;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+            position: relative;
+        }
+        header h1 {
+            font-size: 3rem;
+            font-weight: 300;
+            letter-spacing: 8px;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        .lang-toggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            gap: 5px;
+        }
+        .lang-toggle button {
+            background: transparent;
+            color: white;
+            border: 1px solid rgba(255,255,255,0.3);
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+        }
+        .lang-toggle button:hover,
+        .lang-toggle button.active {
+            background: rgba(255,255,255,0.2);
+            border-color: rgba(255,255,255,0.5);
+        }
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, #1a252f 100%);
+            color: white;
+            padding: 40px 0;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            text-align: center;
+        }
+        .stat-item h3 {
+            font-size: 2.5rem;
+            font-weight: 300;
+            color: var(--accent);
+        }
+        .stat-item p {
+            font-size: 0.95rem;
+            opacity: 0.8;
+        }
+        section {
+            padding: 60px 0;
+        }
+        section:nth-child(even) {
+            background: var(--light);
+        }
+        h2 {
+            font-size: 1.8rem;
+            font-weight: 400;
+            margin-bottom: 30px;
+            color: var(--primary);
+        }
+        .intro {
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin-bottom: 30px;
+        }
+        .bilingual {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+        .bilingual > div {
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .bilingual .en {
+            border-left: 4px solid var(--accent);
+            background: rgba(52, 152, 219, 0.05);
+        }
+        .bilingual .sv {
+            border-left: 4px solid #27ae60;
+            background: rgba(39, 174, 96, 0.05);
+        }
+        .bilingual h3 {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #888;
+            margin-bottom: 15px;
+        }
+        .bilingual .en h3 {
+            color: var(--accent);
+        }
+        .bilingual .sv h3 {
+            color: #27ae60;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+        .project-card {
+            background: white;
+            border-radius: 8px;
+            padding: 25px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            border-left: 4px solid var(--accent);
+        }
+        .project-card h4 {
+            color: var(--primary);
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+        .project-card p {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        .project-card .sv-text {
+            color: #888;
+            font-style: italic;
+        }
+        .findings {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+        .finding {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+        .finding h4 {
+            color: var(--accent);
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+        .finding .sv-title {
+            color: #27ae60;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+            font-style: italic;
+        }
+        .data-sources {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 20px;
+        }
+        .data-tag {
+            background: var(--primary);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+        .methods ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 10px;
+        }
+        .methods li {
+            padding: 12px 15px;
+            background: white;
+            border-radius: 4px;
+            border-left: 3px solid var(--accent);
+            font-size: 0.95rem;
+        }
+        .methods li span {
+            color: #888;
+            font-style: italic;
+        }
+        footer {
+            background: var(--primary);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+        footer p {
+            opacity: 0.8;
+            margin-bottom: 10px;
+        }
+        footer a {
+            color: var(--accent);
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+                letter-spacing: 4px;
+            }
+            .stat-item h3 {
+                font-size: 2rem;
+            }
+            .bilingual {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="lang-toggle">
+            <button class="active">EN</button>
+            <button>SV</button>
+        </div>
+        <div class="container">
+            <h1>STRATEGIOS</h1>
+            <p>Swedish Public Sector Strategy Research</p>
+            <p><em>Forskning om strategiarbete i svensk offentlig sektor</em></p>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="stats">
+                <div class="stat-item">
+                    <h3>6,000+</h3>
+                    <p>Strategy Documents<br><em>Strategidokument</em></p>
+                </div>
+                <div class="stat-item">
+                    <h3>10M+</h3>
+                    <p>Job Advertisements<br><em>Platsannonser</em></p>
+                </div>
+                <div class="stat-item">
+                    <h3>470+</h3>
+                    <p>Organizations<br><em>Organisationer</em></p>
+                </div>
+                <div class="stat-item">
+                    <h3>20+</h3>
+                    <p>Research Projects<br><em>Forskningsprojekt</em></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>About / Om programmet</h2>
+            <div class="bilingual">
+                <div class="en">
+                    <h3>English</h3>
+                    <p class="intro">
+                        STRATEGIOS is a research program examining how Swedish public organizations formulate, realize, and develop strategy. The program encompasses 20+ projects analyzing 6,000+ strategic documents (digitalization strategies, sustainability strategies, annual reports) from 290 municipalities, 21 regions, and 160+ state agencies, plus 10 million job advertisements from 2006–2024.
+                    </p>
+                    <p>
+                        The research combines NLP text analysis, surveys, and interviews. Key findings include systematic gaps between strategic ambition and capability, the dominance of informal learning among strategists, and significant variation in how organizations articulate strategic direction.
+                    </p>
+                </div>
+                <div class="sv">
+                    <h3>Svenska</h3>
+                    <p class="intro">
+                        Forskningsprogrammet STRATEGIOS undersöker hur svenska offentliga organisationer formulerar, realiserar och utvecklar strategi. Programmet omfattar 20+ projekt och analyserar 6000+ strategidokument (digitaliseringsstrategier, hållbarhetsstrategier, årsredovisningar) från 290 kommuner, 21 regioner och 160+ statliga myndigheter, plus 10 miljoner platsannonser från 2006–2024.
+                    </p>
+                    <p>
+                        Forskningen kombinerar NLP-textanalys, enkäter och intervjuer. Centrala fynd inkluderar systematiska gap mellan strategisk ambition och förmåga, informellt lärandes dominans bland strateger, samt betydande variation i hur organisationer artikulerar strategisk riktning.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Data Sources / Datakällor</h2>
+            <div class="data-sources">
+                <span class="data-tag">6,000+ Strategic Documents / Strategidokument</span>
+                <span class="data-tag">10M Job Ads / Platsannonser (2006-2024)</span>
+                <span class="data-tag">290 Municipalities / Kommuner</span>
+                <span class="data-tag">21 Regions / Regioner</span>
+                <span class="data-tag">160+ State Agencies / Statliga myndigheter</span>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Research Projects / Forskningsprojekt</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h4>DNA-I</h4>
+                    <p>Digital strategy analysis: direction, nomenclature, anatomy, and integration.</p>
+                    <p class="sv-text">Analys av digitaliseringsstrategier: riktning, nomenklatur, anatomi och integration.</p>
+                </div>
+                <div class="project-card">
+                    <h4>SCS</h4>
+                    <p>Strategy Competence Survey: empirical analysis of strategic ability (n=191).</p>
+                    <p class="sv-text">Enkät om strategikompetens: empirisk analys av strategisk förmåga (n=191).</p>
+                </div>
+                <div class="project-card">
+                    <h4>DECOUPLING</h4>
+                    <p>Strategy fragmentation: conceptual, temporal, structural, and resource dimensions.</p>
+                    <p class="sv-text">Strategifragmentering: konceptuella, temporala, strukturella och resursmässiga dimensioner.</p>
+                </div>
+                <div class="project-card">
+                    <h4>JOBADS</h4>
+                    <p>Labor market analysis: mining 10M+ job ads to understand the strategist role evolution.</p>
+                    <p class="sv-text">Arbetsmarknadsanalys: analys av 10M+ jobbannonser för att förstå utvecklingen av strategrollen.</p>
+                </div>
+                <div class="project-card">
+                    <h4>ALIGN</h4>
+                    <p>Strategy-budget alignment: alignment between intentions and resource allocation.</p>
+                    <p class="sv-text">Strategi-budget-samstämmighet: samstämmighet mellan intentioner och resursallokering.</p>
+                </div>
+                <div class="project-card">
+                    <h4>COHESION</h4>
+                    <p>Text coherence analysis: NLP-based measurement of semantic coherence.</p>
+                    <p class="sv-text">Textkoherensanalys: NLP-baserad mätning av semantisk koherens.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Key Findings / Centrala resultat</h2>
+            <div class="findings">
+                <div class="finding">
+                    <h4>Ambition-Capability Gap</h4>
+                    <p class="sv-title">Gap mellan ambition och förmåga</p>
+                    <p>Systematic gaps between strategic ambition and organizational capability across the public sector.</p>
+                </div>
+                <div class="finding">
+                    <h4>Informal Learning Dominates</h4>
+                    <p class="sv-title">Informellt lärande dominerar</p>
+                    <p>Informal learning is the dominant mode of competence development among strategists.</p>
+                </div>
+                <div class="finding">
+                    <h4>Strategic Direction Variation</h4>
+                    <p class="sv-title">Variation i strategisk riktning</p>
+                    <p>Significant variation in how organizations articulate strategic direction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p><strong>STRATEGIOS Research Program</strong><br><em>STRATEGIOS forskningsprogram</em></p>
+            <p>University of Gothenburg / Göteborgs universitet</p>
+            <p><a href="https://www.linkedin.com/in/kristiannorling/">Kristian Norling</a></p>
+        </div>
+    </footer>
+</body>
+</html>

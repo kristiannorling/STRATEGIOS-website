@@ -1,0 +1,19 @@
+# Quarto
+# /_site/  # Included in repo for simple deployment
+/.quarto/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+*~
+
+# Python (if using notebooks)
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+**/*.quarto_ipynb

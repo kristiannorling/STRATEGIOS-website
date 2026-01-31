@@ -1,0 +1,69 @@
+/*-- scss:defaults --*/
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+$font-family-sans-serif: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+$headings-font-family: 'Inter', sans-serif;
+$headings-font-weight: 600;
+
+// Colors - high contrast black/white per design manual
+$body-bg: #ffffff;
+$body-color: #000000;
+$link-color: #000000;
+$link-hover-color: #333333;
+
+// Navbar
+$navbar-bg: #000000;
+$navbar-fg: #ffffff;
+
+// Code blocks
+$code-bg: #f8f8f8;
+$code-color: #000000;
+
+/*-- scss:rules --*/
+
+body {
+  font-feature-settings: 'kern' 1, 'liga' 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.02em;
+}
+
+// Clean table styling
+.table {
+  border-collapse: collapse;
+
+  th {
+    border-bottom: 2px solid #000;
+    font-weight: 600;
+  }
+
+  td {
+    border-bottom: 1px solid #e0e0e0;
+  }
+}
+
+// Figure captions
+.figure-caption {
+  font-size: 0.875rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+// Generous whitespace
+.content {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+// Footer
+.nav-footer {
+  border-top: 1px solid #e0e0e0;
+  padding: 1.5rem 0;
+  font-size: 0.875rem;
+  color: #666;
+}

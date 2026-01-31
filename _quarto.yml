@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "STRATEGIOS"
+  description: "Forskning om strategisk styrning i svensk offentlig sektor"
+  site-url: https://strategios.se
+
+  navbar:
+    background: dark
+    foreground: light
+    left:
+      - text: "Om"
+        href: about.qmd
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/kristiannorling/
+      - icon: github
+        href: https://github.com/kristiannorling
+
+  page-footer:
+    center: |
+      STRATEGIOS · Göteborgs universitet · [Kristian Norling](https://www.gu.se/om-universitetet/hitta-person/kristiannorling)
+
+format:
+  html:
+    theme:
+      light: [cosmo, custom.scss]
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    code-tools: true
+
+execute:
+  freeze: auto

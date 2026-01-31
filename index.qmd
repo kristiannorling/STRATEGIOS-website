@@ -1,0 +1,133 @@
+---
+title: "STRATEGIOS"
+subtitle: "Swedish Public Sector Strategy Research · Forskning om strategisk styrning i svensk offentlig sektor"
+page-layout: full
+---
+
+::: {.metric-grid}
+::: {.metric-box}
+[6 000+]{.metric-value}
+[Strategy Documents · Strategidokument]{.metric-label}
+:::
+
+::: {.metric-box}
+[10M+]{.metric-value}
+[Job Advertisements · Jobbannonser]{.metric-label}
+:::
+
+::: {.metric-box}
+[470+]{.metric-value}
+[Organizations · Organisationer]{.metric-label}
+:::
+
+::: {.metric-box}
+[20+]{.metric-value}
+[Research Projects · Forskningsprojekt]{.metric-label}
+:::
+:::
+
+## About · Om
+
+::: {.grid}
+::: {.g-col-6}
+### English
+
+STRATEGIOS examines how Swedish public organizations develop strategy. We analyze strategic documents from municipalities, regions, and state agencies using NLP-based text analysis combined with surveys and interviews.
+
+The research program is based at the University of Gothenburg, led by [Kristian Norling](https://www.gu.se/om-universitetet/hitta-person/kristiannorling).
+:::
+
+::: {.g-col-6}
+### Svenska
+
+STRATEGIOS undersöker hur svenska offentliga organisationer utvecklar strategi. Vi analyserar strategidokument från kommuner, regioner och statliga myndigheter med NLP-baserad textanalys kombinerat med enkäter och intervjuer.
+
+Forskningsprogrammet bedrivs vid Göteborgs universitet av [Kristian Norling](https://www.gu.se/om-universitetet/hitta-person/kristiannorling).
+:::
+:::
+
+## Research Projects · Forskningsprojekt
+
+::: {.grid}
+::: {.g-col-6 .g-col-md-4}
+::: {.analysis-card}
+### DNA-I
+Digital strategy structure analysis · Strukturanalys av digitaliseringsstrategier
+:::
+:::
+
+::: {.g-col-6 .g-col-md-4}
+::: {.analysis-card}
+### SCS
+Strategy competence survey · Enkät om strategisk kompetens
+:::
+:::
+
+::: {.g-col-6 .g-col-md-4}
+::: {.analysis-card}
+### DECOUPLING
+Strategy fragmentation · Fragmentering mellan strategier
+:::
+:::
+
+::: {.g-col-6 .g-col-md-4}
+::: {.analysis-card}
+### JOBADS
+Labor market analysis · Arbetsmarknadsanalys
+:::
+:::
+
+::: {.g-col-6 .g-col-md-4}
+::: {.analysis-card}
+### BLAI
+Language complexity · Språkkomplexitet
+:::
+:::
+
+::: {.g-col-6 .g-col-md-4}
+::: {.analysis-card}
+### COHESION
+Text coherence · Textkoherens
+:::
+:::
+:::
+
+## Key Findings · Huvudresultat
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-4}
+::: {.analysis-card}
+#### Strategic Gap · Strategiskt gap
+
+Systematic gaps between strategic ambition and organizational capability.
+
+Systematiska gap mellan strategisk ambition och organisatorisk förmåga.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.analysis-card}
+#### Informal Learning · Informellt lärande
+
+Strategists rely primarily on informal learning rather than formal training.
+
+Strateger förlitar sig främst på informellt lärande snarare än formell utbildning.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.analysis-card}
+#### Strategic Variation · Strategisk variation
+
+Significant variation in how organizations articulate strategic direction.
+
+Stor variation i hur organisationer formulerar strategisk riktning.
+:::
+:::
+:::
+
+## Contact · Kontakt
+
+- **Email · E-post**: kristian.norling@gu.se
+- **LinkedIn**: [/in/kristiannorling](https://www.linkedin.com/in/kristiannorling/)
+- **Newsletter · Nyhetsbrev**: [Strategibrevet](https://www.linkedin.com/newsletters/strategibrevet-7192407919498530816/)

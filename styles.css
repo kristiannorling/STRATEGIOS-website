@@ -1,0 +1,70 @@
+/* Additional custom styles */
+
+/* Analysis cards on landing page */
+.analysis-card {
+  border: 1px solid #e0e0e0;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  transition: border-color 0.2s;
+}
+
+.analysis-card:hover {
+  border-color: #000;
+}
+
+.analysis-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.analysis-card p {
+  margin-bottom: 0;
+  color: #666;
+}
+
+/* Metric displays */
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.metric-box {
+  background: #f8f8f8;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.metric-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.metric-label {
+  font-size: 0.875rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+/* Data tables */
+.data-table {
+  width: 100%;
+  font-size: 0.875rem;
+}
+
+.data-table th {
+  text-align: left;
+  padding: 0.75rem 1rem;
+  background: #000;
+  color: #fff;
+}
+
+.data-table td {
+  padding: 0.75rem 1rem;
+}
+
+.data-table tr:nth-child(even) {
+  background: #f8f8f8;
+}
