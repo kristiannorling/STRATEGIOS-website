@@ -1,133 +1,223 @@
 ---
 title: "STRATEGIOS"
-subtitle: "Swedish Public Sector Strategy Research · Forskning om strategisk styrning i svensk offentlig sektor"
+subtitle: "Swedish Public Sector Strategy Research"
 page-layout: full
 ---
+
+::: {.panel-tabset}
+
+## English
 
 ::: {.metric-grid}
 ::: {.metric-box}
 [6 000+]{.metric-value}
-[Strategy Documents · Strategidokument]{.metric-label}
+[Strategy Documents]{.metric-label}
 :::
 
 ::: {.metric-box}
 [10M+]{.metric-value}
-[Job Advertisements · Jobbannonser]{.metric-label}
+[Job Advertisements]{.metric-label}
 :::
 
 ::: {.metric-box}
 [470+]{.metric-value}
-[Organizations · Organisationer]{.metric-label}
+[Organizations]{.metric-label}
 :::
 
 ::: {.metric-box}
 [20+]{.metric-value}
-[Research Projects · Forskningsprojekt]{.metric-label}
+[Research Projects]{.metric-label}
 :::
 :::
 
-## About · Om
-
-::: {.grid}
-::: {.g-col-6}
-### English
+### About
 
 STRATEGIOS examines how Swedish public organizations develop strategy. We analyze strategic documents from municipalities, regions, and state agencies using NLP-based text analysis combined with surveys and interviews.
 
 The research program is based at the University of Gothenburg, led by [Kristian Norling](https://www.gu.se/om-universitetet/hitta-person/kristiannorling).
-:::
 
-::: {.g-col-6}
-### Svenska
-
-STRATEGIOS undersöker hur svenska offentliga organisationer utvecklar strategi. Vi analyserar strategidokument från kommuner, regioner och statliga myndigheter med NLP-baserad textanalys kombinerat med enkäter och intervjuer.
-
-Forskningsprogrammet bedrivs vid Göteborgs universitet av [Kristian Norling](https://www.gu.se/om-universitetet/hitta-person/kristiannorling).
-:::
-:::
-
-## Research Projects · Forskningsprojekt
+### Research Projects
 
 ::: {.grid}
 ::: {.g-col-6 .g-col-md-4}
 ::: {.analysis-card}
-### DNA-I
-Digital strategy structure analysis · Strukturanalys av digitaliseringsstrategier
+#### DNA-I
+Digital strategy structure analysis
 :::
 :::
 
 ::: {.g-col-6 .g-col-md-4}
 ::: {.analysis-card}
-### SCS
-Strategy competence survey · Enkät om strategisk kompetens
+#### SCS
+Strategy competence survey
 :::
 :::
 
 ::: {.g-col-6 .g-col-md-4}
 ::: {.analysis-card}
-### DECOUPLING
-Strategy fragmentation · Fragmentering mellan strategier
+#### DECOUPLING
+Strategy fragmentation
 :::
 :::
 
 ::: {.g-col-6 .g-col-md-4}
 ::: {.analysis-card}
-### JOBADS
-Labor market analysis · Arbetsmarknadsanalys
+#### JOBADS
+Labor market analysis
 :::
 :::
 
 ::: {.g-col-6 .g-col-md-4}
 ::: {.analysis-card}
-### BLAI
-Language complexity · Språkkomplexitet
+#### BLAI
+Language complexity
 :::
 :::
 
 ::: {.g-col-6 .g-col-md-4}
 ::: {.analysis-card}
-### COHESION
-Text coherence · Textkoherens
+#### COHESION
+Text coherence
 :::
 :::
 :::
 
-## Key Findings · Huvudresultat
+### Key Findings
 
 ::: {.grid}
 ::: {.g-col-12 .g-col-md-4}
 ::: {.analysis-card}
-#### Strategic Gap · Strategiskt gap
-
+#### Strategic Gap
 Systematic gaps between strategic ambition and organizational capability.
+:::
+:::
 
+::: {.g-col-12 .g-col-md-4}
+::: {.analysis-card}
+#### Informal Learning
+Strategists rely primarily on informal learning rather than formal training.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.analysis-card}
+#### Strategic Variation
+Significant variation in how organizations articulate strategic direction.
+:::
+:::
+:::
+
+### Contact
+
+- **Signal**: [kristiannorling.01](https://signal.me/#eu/WjWYVgrylEqIZcZCbI4p1I6Edfyz4HyR5lUkBrJOxwJdUg2ydgJLZphVYUv3PpCY)
+- **LinkedIn**: [/in/kristiannorling](https://www.linkedin.com/in/kristiannorling/)
+- **Newsletter**: [Strategibrevet](https://www.linkedin.com/newsletters/strategibrevet-7192407919498530816/)
+
+## Svenska
+
+::: {.metric-grid}
+::: {.metric-box}
+[6 000+]{.metric-value}
+[Strategidokument]{.metric-label}
+:::
+
+::: {.metric-box}
+[10M+]{.metric-value}
+[Jobbannonser]{.metric-label}
+:::
+
+::: {.metric-box}
+[470+]{.metric-value}
+[Organisationer]{.metric-label}
+:::
+
+::: {.metric-box}
+[20+]{.metric-value}
+[Forskningsprojekt]{.metric-label}
+:::
+:::
+
+### Om
+
+STRATEGIOS undersöker hur svenska offentliga organisationer utvecklar strategi. Vi analyserar strategidokument från kommuner, regioner och statliga myndigheter med NLP-baserad textanalys kombinerat med enkäter och intervjuer.
+
+Forskningsprogrammet bedrivs vid Göteborgs universitet av [Kristian Norling](https://www.gu.se/om-universitetet/hitta-person/kristiannorling).
+
+### Forskningsprojekt
+
+::: {.grid}
+::: {.g-col-6 .g-col-md-4}
+::: {.analysis-card}
+#### DNA-I
+Strukturanalys av digitaliseringsstrategier
+:::
+:::
+
+::: {.g-col-6 .g-col-md-4}
+::: {.analysis-card}
+#### SCS
+Enkät om strategisk kompetens
+:::
+:::
+
+::: {.g-col-6 .g-col-md-4}
+::: {.analysis-card}
+#### DECOUPLING
+Fragmentering mellan strategier
+:::
+:::
+
+::: {.g-col-6 .g-col-md-4}
+::: {.analysis-card}
+#### JOBADS
+Arbetsmarknadsanalys
+:::
+:::
+
+::: {.g-col-6 .g-col-md-4}
+::: {.analysis-card}
+#### BLAI
+Språkkomplexitet
+:::
+:::
+
+::: {.g-col-6 .g-col-md-4}
+::: {.analysis-card}
+#### COHESION
+Textkoherens
+:::
+:::
+:::
+
+### Huvudresultat
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-4}
+::: {.analysis-card}
+#### Strategiskt gap
 Systematiska gap mellan strategisk ambition och organisatorisk förmåga.
 :::
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 ::: {.analysis-card}
-#### Informal Learning · Informellt lärande
-
-Strategists rely primarily on informal learning rather than formal training.
-
+#### Informellt lärande
 Strateger förlitar sig främst på informellt lärande snarare än formell utbildning.
 :::
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 ::: {.analysis-card}
-#### Strategic Variation · Strategisk variation
-
-Significant variation in how organizations articulate strategic direction.
-
+#### Strategisk variation
 Stor variation i hur organisationer formulerar strategisk riktning.
 :::
 :::
 :::
 
-## Contact · Kontakt
+### Kontakt
 
 - **Signal**: [kristiannorling.01](https://signal.me/#eu/WjWYVgrylEqIZcZCbI4p1I6Edfyz4HyR5lUkBrJOxwJdUg2ydgJLZphVYUv3PpCY)
 - **LinkedIn**: [/in/kristiannorling](https://www.linkedin.com/in/kristiannorling/)
-- **Newsletter · Nyhetsbrev**: [Strategibrevet](https://www.linkedin.com/newsletters/strategibrevet-7192407919498530816/)
+- **Nyhetsbrev**: [Strategibrevet](https://www.linkedin.com/newsletters/strategibrevet-7192407919498530816/)
+
+:::
